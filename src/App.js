@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+  const name ='unisagrado'
+  const newname = name.toUpperCase()
+  
+  function mult(a,b){
+    return a*b
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">    
+    <h3>AULA DE JSX</h3>
+    <p>UNIVERSIDADE - {newname}</p>
+    <p>Professor - {'Luiz'}</p>
+    <p>Multiplicação = {mult(1,2)}</p>
+
+
+    
     </div>
+    
   );
 }
 
 export default App;
+
+

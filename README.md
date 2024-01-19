@@ -1,3 +1,37 @@
+# Bem-vindos à Aula de JSX!
+
+Olá, alunos!
+
+Hoje, vamos mergulhar no mundo do JSX através de um projeto prático no React. Este projeto é uma excelente oportunidade para entender como JSX facilita a criação de interfaces de usuário dinâmicas com React.
+
+## O Projeto
+
+O código-fonte do nosso projeto inclui:
+
+- **Uso de Variáveis e Funções:** Demonstramos como integrar lógica JavaScript, como variáveis e funções, dentro do JSX.
+  - Vejam como a variável `name` é transformada e exibida em maiúsculas.
+  - Observem a função `mult`, que realiza uma multiplicação, sendo usada diretamente no JSX.
+
+```jsx
+function App() {
+  const name = 'unisagrado';
+  const newname = name.toUpperCase();
+
+  function mult(a, b) {
+    return a * b;
+  }
+
+  return (
+    <div className="App">    
+      <h3>AULA DE JSX</h3>
+      <p>UNIVERSIDADE - {newname}</p>
+      <p>Professor - {'Luiz'}</p>
+      <p>Multiplicação = {mult(1, 2)}</p>
+    </div>
+  );
+}
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
