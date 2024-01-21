@@ -1,6 +1,6 @@
 # Bem-vindos à Aula de JSX!
 
-Olá, alunos!
+Olá, alunos!!!
 
 Hoje, vamos mergulhar no mundo do JSX através de um projeto prático no React. Este projeto é uma excelente oportunidade para entender como JSX facilita a criação de interfaces de usuário dinâmicas com React.
 
